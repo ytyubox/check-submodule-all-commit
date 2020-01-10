@@ -4,3 +4,6 @@
 [submodule "tryViber-iOS"]
 	path = tryViber-iOS
 	url = https://github.com/ytyubox/tryViber-iOS
+[submodule "check-submodule-all-commit"]
+	path = check-submodule-all-commit
+	url = https://github.com/ytyubox/check-submodule-all-commit
