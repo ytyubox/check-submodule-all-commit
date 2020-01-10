@@ -13,9 +13,9 @@ Will generate a execute file name `pre-commit`
 
 ```bash
 git submodule add https://github.com/ytyubox/check-submodule-all-commit
-touch check-submodule-all-commit/UncommitFile
-touch commitedFile
-git add commitedFile
+touch check-submodule-all-commit/YetcommitFile
+touch committedFile
+git add committedFile
 git commit -m 'I want to commit, but I can't, because there some modified in my submodules'
 ```
 
