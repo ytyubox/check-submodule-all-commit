@@ -1,3 +1,6 @@
 [submodule "Weak"]
 	path = Weak
 	url = https://github.com/ytyubox/Weak
+[submodule "tryViber-iOS"]
+	path = tryViber-iOS
+	url = https://github.com/ytyubox/tryViber-iOS
