@@ -16,7 +16,6 @@ git submodule add https://github.com/ytyubox/check-submodule-all-commit
 touch check-submodule-all-commit/UncommitFile
 touch commitedFile
 git add commitedFile
-git commit -m 'commited'
-
+git commit -m 'I want to commit, but I can't, because there some modified in my submodules'
 ```
 
