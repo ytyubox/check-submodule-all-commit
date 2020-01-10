@@ -18,11 +18,13 @@ public struct CLI {
 				.map{$0}
 				.map(folder.subfolder(at:))
 				.map{$0.path}
-				.map{try shellOut(to: "git --version", at: $0)}
+		//				.map{try shellOut(to: "git --version", at: $0)}
 		//.map{"git  \($0)/.git --work-tree=\($0) status -s"}
-		//.map{try shellOut(to: "git --work-tree=\($0)  diff  --name-only", at: $0)}
+//		try s.forEach{try shellOut(to: "git fsck", at: $0)}
+		let r =
+			try s.map{try shellOut(to: "git status", at: $0)}
 		
-		s.forEach{print($0)}
+		r.forEach{print($0)}
 		//		print(r)
 	}
 }
