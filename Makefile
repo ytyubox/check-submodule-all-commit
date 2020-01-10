@@ -9,6 +9,6 @@ WARN_STRING=$(WARN_COLOR)[WARNINGS]$(NO_COLOR)
 install:
 	@echo "making $(PRE_STRING)"
 	@swift build -c release
-	@install .build/release/check-submodule-all-commit $1
+	@install .build/release/check-submodule-all-commit pre-commit
 	@echo "🍺 successfully gen $(PRE_STRING)"
 	@echo "please do $(COMMAND_STRING) to work"
